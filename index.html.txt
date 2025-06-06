@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuairsolutions HVAC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+    }
+    .contact-form button {
+      background: #003366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nuairsolutions HVAC</h1>
+    <p>Serving Los Angeles and surrounding areas</p>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>New HVAC Installations</li>
+      <li>Service Calls & Repairs</li>
+      <li>Preventative Maintenance</li>
+    </ul>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Nuairsolutions has over 10 years of HVAC experience, fully certified with a C-20 contractor license and EPA certification. We provide reliable, affordable, and timely HVAC services across Los Angeles County and surrounding areas.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact / Get a Quote</h2>
+    <p>Phone: <a href="tel:2134462551">213-446-2551</a></p>
+    <p>Email: <a href="mailto:nuairsolution25@gmail.com">nuairsolution25@gmail.com</a></p>
+    <p>Service Area: 50-mile radius from Central Los Angeles</p>
+    <form class="contact-form" action="https://formspree.io/f/mayvlwvp" method="POST">
+      <input type="text" name="name" placeholder="Your name" required />
+      <input type="email" name="email" placeholder="Your email" required />
+      <input type="text" name="phone" placeholder="Your phone number" required />
+      <textarea name="message" placeholder="Tell us what you need..." rows="5" required></textarea>
+      <button type="submit">Send Request</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Nuairsolutions HVAC | Licensed C20 | EPA Certified
+  </footer>
+</body>
+</html>
